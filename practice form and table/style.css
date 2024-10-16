@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.pesan {
+    width: 120px;
+}
+
+.icon {
+    width: auto;
+    height: 12px;
+}
