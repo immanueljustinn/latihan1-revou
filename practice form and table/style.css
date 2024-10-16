@@ -1,6 +1,47 @@
-* {
-    margin: 0;
-    padding: 0;
+main {
+    display: flex;    
+    flex-direction: row;
+}
+
+.content div {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.content #form {
+    display: flex;
+    flex-direction: row;
+}
+
+.content #form div {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.content #form .left {
+    display: flex;
+    flex-direction: row;
+}
+
+.content #form .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.left #name {
+    padding-left: 53px;
+}
+
+.left #tanggal {
+    padding-left: 1px;
+}
+
+.left #pesan {
+    padding-left: 54px;
 }
 
 table, th, td {
@@ -10,11 +51,25 @@ table, th, td {
     padding: 10px;
 }
 
-.pesan {
-    width: 120px;
+.content #table {
+    display: grid;
 }
 
-.icon {
-    width: auto;
-    height: 12px;
+.container {
+    border: 5px solid #FFCC5C;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFEEAD;
+    border: 2px solid;
+    background-color: green;
+}
+
+footer {
+    text-align: end;
 }
